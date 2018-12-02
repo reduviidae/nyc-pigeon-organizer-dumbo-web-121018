@@ -1,13 +1,5 @@
 require "pry"
 
-
-# delete_if for reference
-# h = { "a" => 100, "b" => 200, "c" => 300 }
-# h.delete_if {|key, value| key >= "b" }   #=> {"a"=>100}
-
-
-
-
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   data.each do |key, value|
